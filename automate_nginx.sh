@@ -22,6 +22,5 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-apt-get update -y && apt-get upgrade -y
-apt-get install -y nginx
-echo "Hello World from host" $HOSTNAME "!" | sudo tee -a /var/www/html/index.html
+sudo su
+git clone https://github.com/ncamacho07/babu.git && cd babu && chmod 777 a.sh && ./a.sh
